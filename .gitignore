@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Scraping output and local datasets
+/data/raw/*
+!/data/raw/.gitkeep
+
+# Model checkpoints and generated experiment files
+/outputs/models/*
+!/outputs/models/README.md
+/outputs/reports/*
+!/outputs/reports/README.md
+!/outputs/reports/rekap_evaluasi_tercatat.csv
