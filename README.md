@@ -61,3 +61,21 @@ Pelatihan IndoBERT mengunduh model `indobenchmark/indobert-base-p1` dan membutuh
 - **Evaluasi:** akurasi, precision, recall, F1-macro, ROC-AUC, confusion matrix, dan analisis kesalahan.
 
 Oversampling dilakukan pada data latih. Notebook menetapkan seed 42, tetapi hasil tetap dapat berubah karena perbedaan perangkat keras, pustaka, atau data.
+
+## Teknologi yang digunakan
+
+| Kategori | Pustaka / Tools |
+|---|---|
+| Bahasa pemrograman | Python 3.10+ |
+| Model NLP | IndoBERT (`indobenchmark/indobert-base-p1`) |
+| Machine Learning | scikit-learn (LinearSVC, TF-IDF) |
+| Deep Learning | PyTorch, Hugging Face Transformers |
+| Preprocessing | Sastrawi, NLTK, emoji, IndoNLP |
+| Visualisasi | Matplotlib, Seaborn, WordCloud |
+| Scraping | youtube-comment-downloader, Requests |
+| Lingkungan | Jupyter Notebook/Lab, GPU Tesla T4 |
+
+## Lisensi
+
+Repositori ini dibuat untuk keperluan skripsi. Silakan merujuk atau mengutip dengan mencantumkan sumber.
+
